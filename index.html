@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- [Delete this comment] This file is the main file for the challenge. For the most part, you should be editing this file. -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GreatFrontEnd Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Tailwind CDN allows you to use Tailwind classes immediately in your HTML without any installation steps. 
+      If you're not using Tailwind, you may delete the <script> -->
+    <!-- Get started on Tailwind: https://tailwindcss.com/docs/installation/play-cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="icon" href="img/favicon.ico" sizes="any" />
+    <style>
+      /* You may write styles inside this <style> tag or within `css/style.css`. */
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            screens: {
+              desktop_4k: '3840px',
+              desktop_2k: '2560px',
+              desktop_1k: '1920px',
+              desktop: '1440px',
+              tablet: '768px',
+              mobile: '375px'
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Add your site or application content here -->
+    <div
+      class="h-screen mobile:w-[375px] tablet:w-[768px] desktop:w-[1440px] desktop_1k:w-[1920px] desktop_2k:w-[2560px] desktop_4k:w-[3840px] flex flex-col items-center bg-gradient-to-b from-gray-50 to-[#d2d6db] py-[120px]"
+    >
+      <div class="w-[340px] flex flex-col bg-white rounded-lg">
+        <img
+          src="./img/spacejoy-YqFz7UMm8qE-unsplash.jpg"
+          alt="image"
+          class="self-stretch h-72 object-cover rounded-t-lg"
+        />
+        <div class="flex flex-col gap-3 self-stretch px-4 py-6">
+          <div class="flex flex-col items-start gap-2">
+            <div
+              class="flex items-center bg-green-50 px-2 py-0.5 rounded-full border border-solid border-green-200"
+            >
+              <span class="font-normal text-sm text-center text-green-700"
+                >Interior</span
+              >
+            </div>
+            <span class="font-semibold text-lg text-neutral-900"
+              >Top 5 Living Room Inspirations</span
+            >
+          </div>
+          <div class="flex flex-col gap-6 self-stretch">
+            <span class="font-medium text-base text-neutral-600"
+              >Curated vibrants colors for your living, make it pop &amp; calm
+              in the same time.</span
+            >
+            <div class="flex justify-start items-center gap-1.5 rounded">
+              <div class="flex justify-center items-center px-0.5">
+                <span class="font-medium text-base text-indigo-700"
+                  >Read more</span
+                >
+              </div>
+              <div class="w-5 h-5">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2.2"
+                  stroke="currentColor"
+                  class="size-6 w-[16px] h-[20px] text-indigo-700 font-weight-700"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Interior
+      Top 5 Living Room Inspirations
+      Curated vibrants colors for your living, make it pop & calm in the same time.
+      Read more -->
+
+    <!-- Attribute this challenge to yourself! -->
+    <div class="credits" data-gfe-screenshot-exclude="true">
+      A challenge by
+      <a
+        href="https://www.greatfrontend.com/projects?ref=challenges"
+        target="_blank"
+        >GreatFrontEnd Projects</a
+      >. Built by
+      <a
+        href="https://www.greatfrontend.com/projects/u/username"
+        target="_blank"
+        >AdamLiWroteThis</a
+      >.
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
